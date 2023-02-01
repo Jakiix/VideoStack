@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Tests') {
       steps {
-        sh 'npm test'
+        bat(returnStatus: true, returnStdout: true, script: 'npm test')
       }
     }
 
