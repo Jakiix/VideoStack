@@ -1,0 +1,22 @@
+{
+  "name": "jakiix.github.io",
+  "version": "1.0.0",
+  "description": "This project is a web site that allows users to search for movies by their title, and then display the results in a grid with the movie poster. This is done using the IMDb API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jakiix/jakiix.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jakiix/jakiix.github.io/issues"
+  },
+  "homepage": "https://github.com/Jakiix/jakiix.github.io#readme",
+  "devDependencies": {
+    "jest": "^29.4.1"
+  }
+}
