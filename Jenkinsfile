@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Message') {
+    stage('Tests') {
       steps {
-        echo 'Hello'
+        sh 'npm test'
       }
     }
 
